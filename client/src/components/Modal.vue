@@ -5,7 +5,7 @@
         <div class="md-modal-inner">
           <div class="md-top">
             <div class="md-title">信息展示</div>
-            <button class="md-close" :class="{'md-show':mdShow}">Close</button>
+            <button class="md-close" @click="mdShow = false">Close</button>
           </div>
           <div class="md-content">
             <div class="confirm-tips">
