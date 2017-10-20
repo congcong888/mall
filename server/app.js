@@ -32,8 +32,7 @@ app.use(function (req, res, next) {
     } else {
         if (
             req.originalUrl == '/users/login' ||
-            req.path == '/goods/list' ||
-            req.path == '/users/cartList'
+            req.path == '/goods/list'
         ) {
             next()
         } else {
